@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio – Boris LACAZE</title>
+  
+  <!-- Police pro -->
+  https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap
+
+  <style>
+    
+   
+    :root {
+      --primary: #5A2EFF;
+      --secondary: #6C63FF;
+      --text-dark: #2B2B2B;
+      --text-light: #777;
+      --bg-light: #F7F7F7;
+      --white: #FFF;
+    }
+
+    * { 
+      margin: 0; 
+      padding: 0; 
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: var(--bg-light);
+      color: var(--text-dark);
+      line-height: 1.5;
+    }
+
+    /* --- NAVIGATION --- */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 18px 60px;
+      background: rgba(30, 30, 30, 0.75);
+      backdrop-filter: blur(10px);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    #home {
+     
+     padding-bottom: 1cm;
+     margin-left:-1cm;
+     margin-right:-1cm;
+     margin-top:-1cm;
+     padding-top: 2cm;
+     padding-bottom: 2cm;
+     height: 5mm;
+    }
+
+    .logo {
+      font-size: 26px;
+      font-weight: 700;
+      color: white;
+    }
+
+   
+
+    nav a {
+      color: #ddd;
+      margin-left: 25px;
+      text-decoration: none;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--white);
+      text-decoration: underline;
+    }
+
+    /* --- SECTION À PROPOS --- */
+    #about {
+      padding: 150px 8%;
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      background: var(--white);
+    }
+    .profile_name {
+      float: left;
+      padding-left: 2cm;
+      color: white;
+  
+    }
+
+    .profile_name .contact_info {
+      font-size: 15px;
+      font-style: italic;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      color: white;
+    }
+
+
+    .profile_image {
+      width: 360px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      height: auto;
+    }
+
+    #about h1 {
+      font-size: 45px;
+      color: var(--primary);
+      margin-bottom: 20px;
+    }
+
+    #about p {
+      font-size: 20px;
+      color: var(--text-light);
+    }
+
+    /* --- TITRES DE SECTIONS --- */
+    h2.section-title {
+      text-align: center;
+      margin: 70px 0 30px;
+      font-size: 42px;
+      color: var(--primary);
+    }
+
+    /* --- GRILLE DE CARTES --- */
+    .card-grid {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+      padding: 20px;
+    }
+
+    .card {
+      width: 230px;
+      background: var(--white);
+      border-radius: 12px;
+      padding: 22px;
+      text-align: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+    }
+
+    .card img {
+      width: 55px;
+      margin-bottom: 12px;
+    }
+
+    .card h6 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .card p {
+      font-size: 15px;
+      color: var(--text-light);
+    }
+
+    
+    
+
+
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    
+      <div class="profile_name">
+       Boris LACAZE
+       <div class="contact_info">
+            
+       borislacaze64@gmail.com
+      </div>
+      
+      </div>
+     <div>
+          <a class="topmenu" href="#a propos de moi">A propos de moi</a>
+          <a class="topmenu" href="#compétences">Compétences</a>
+          <a class="topmenu" href="#loisirs">Loisirs</a>
+ 
+     </div>
+    
+  </nav>
+
+  <!-- À PROPOS -->
+  
+  
+  <section id="a propos de moi">
+  <br>
+
+
+
+
+
+
+  </br>
+
+  <img src="https://media.licdn.com/dms/image/v2/D4E03AQG3sK7ryxDQvw/profile-displayphoto-scale_200_200/B4EZtGiHclKUAY-/0/1766414908904?e=2147483647&v=beta&t=GZIQds1it8DTva5c0UsOOp4Ym6RPqzXD23SJqaBKlMo" class="profile_image"/>
+
+    <div>
+      <h1>Boris  LACAZE 👋</h1>
+      <p>
+ <b>Professionnel de la qualité</b> avec plusieurs années d’expérience, je suis spécialisé dans les <b>procédés spéciaux</b>, notamment les <b>contrôles CND</b> et les <b>traitements des matériaux</b>. J’allie une expertise technique approfondie à une capacité éprouvée à <b>piloter des projets complexes</b> au sein d’environnements industriels exigeants.
+ Animé par une culture de la <b>performance</b> et de la <b>conformité</b>, j’œuvre à renforcer la fiabilité des procédés tout en intégrant les leviers d’innovation de l’<b>Industrie 4.0</b>, tels que l’<b>Intelligence Artificielle</b> et le <b>Machine Learning</b>, afin d’accompagner les transformations stratégiques de demain.
+      </p>
+    </div>
+  </section>
+
+  <!-- COMPÉTENCES -->
+  <h2 class="section-title" id="compétences">Compétences</h2>
+
+  <div class="card-grid">
+    <div class="card">
+      <img src="https://www.larduportail.fr/wp-content/uploads/2014/10/engagement-qualite.jpg"/>
+      <h6>Management Système Qualité</h6>
+      
+    </div>
+
+    <div class="card">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.Moy9SwuImN6KwIVwUeX_hAAAAA?rs=1&pid=ImgDetMain&o=7&rm=3"/>
+      <h6>Traitements des matériaux</h6>
+      
+    </div>
+
+    <div class="card">
+      <img src="https://www.electronics-cooling.com/wp-content/uploads/2019/09/EC-Blog-Image1-750x422.jpg"/>
+      <h6>Composites</h6>
+      
+    </div>
+
+    <div class="card">
+      <img src="https://thumbs.dreamstime.com/b/concept-d-am%C3%A9lioration-continue-dans-les-affaires-193661917.jpg"/>
+      <h6>Amélioration continue</h6>
+      
+    </div>
+
+    <div class="card">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.B4Wybx9XhyR1LB4ZTE0JPwAAAA?rs=1&pid=ImgDetMain&o=7&rm=3"/>
+      <h6>Python</h6>
+     
+    </div>
+
+    <div class="card">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.-PcoXNpD9UfCW8H4jOnLUAHaHX?rs=1&pid=ImgDetMain&o=7&rm=3"/>
+      <h6>IA générative</h6>
+      
+    </div>
+
+    <div class="card">
+      <img src="https://continue.yorku.ca/web-scs/wp-content/uploads/2020/12/machine-learning-scaled.jpg"/>
+      <h6>Machine Learning</h6>
+    </div>
+
+    <div class="card">
+      <img src="https://static.vecteezy.com/system/resources/previews/004/885/882/non_2x/ai-artificial-intelligence-logo-in-hands-artificial-intelligence-and-machine-learning-concept-sphere-grid-wave-with-binary-code-big-data-innovation-technology-neural-networks-illustration-vector.jpg"/>
+      <h6>Développement IA</h6>
+      
+    </div>
+  </div>
+
+  <!-- LOISIRS -->
+  <h2 class="section-title" id="loisirs">Loisirs</h2>
+
+  <div class="card-grid">
+    <div class="card">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.J3KdbNOiEYFZhwX4EghLxwHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"/>
+      <h6>Ski</h6>
+
+    </div>
+
+    <div class="card">
+      <img src="https://img.freepik.com/vecteurs-premium/logo-natation-icone-nageur-legende-illustration-vectorielle_611015-2604.jpg"/>
+      <h6>Natation</h6>
+
+    </div>
+
+    <div class="card">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.c-mn4wlk_PiJ82Jd78qMeAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"/>
+      <h6>Golf</h6>
+
+    </div>
+
+    <div class="card">
+      <img src="https://img.freepik.com/vecteurs-premium/mains-tenant-symbole-icone-forme-foyer-sante-benevolat-charite-concept-don_136875-4636.jpg"/>
+      <h6>Bénévolat</h6>
+
+    </div>
+
+    
+
+    <div class="card">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.c-mn4wlk_PiJ82Jd78qMeAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"/>
+      <h6>Lecture</h6>
+
+    </div>
+
+    <div class="card">
+      <img src="https://www.creativefabrica.com/wp-content/uploads/2023/05/08/Video-Game-Controller-Logo-Graphics-69127373-1.png"/>
+      <h6>Jeux video</h6>
+    </div>
+  
+   
+
+ 
+
+</body>
+</html>
